@@ -1,0 +1,153 @@
+/* ===========
+global styles
+============*/
+
+:root {
+    --clr-primary-bg: #A6AA9C;
+    --clr-primary-txt: whitesmoke;
+    --clr-head-txt: #000;
+    --clr-neutral: #fff;
+    margin-bottom: 0em;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(fonts/Vecna-oppx.ttf)
+}
+
+body {
+    background-color: var(--clr-primary-bg);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: fantasy;
+}
+
+
+/* ===========
+Layout
+============*/
+
+.navbar {
+    background-color: var(--clr-primary-bg);
+}
+
+.footer {
+    background-color: var(--clr-primary-bg);
+    width: 100%;
+    position: relative;
+}
+
+.strap {
+    color: var(--clr-primary-txt);
+    background-color: var(--clr-primary-bg);
+    font-family: myFont;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.title-card {
+    background-color: var(--clr-primary-bg);
+    margin: 0%;
+    padding-top: 1em;
+}
+
+.columns:not(:last-child) {
+    margin-bottom: 0em;
+}
+
+.is-gapless:not(:last-child) {
+    margin-bottom: 0em;
+}
+
+.monster-card {
+    margin-top: 1em;
+    padding: .5em;
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+.main-selection {
+    display: block;
+    margin-bottom: 0em;
+}
+
+.center-cropped {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.selection-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.column {
+    padding: 0em;
+}
+
+.is-offset-8 {
+    padding-right: 0em;
+    width: inherit;
+}
+
+.is-one-fifth-mobile {
+    background-color: var(--clr-primary-bg);
+}
+
+.burger-expand {
+    background-color: var(--clr-primary-bg);
+}
+
+
+/* ===========
+components
+============*/
+
+.mm-padding {
+    margin-top: 2em;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding: 1em;
+}
+
+.table__wrapper {
+    overflow-x: inherit;
+}
+
+.monster-card-img {
+    height: 15em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/* Log In*/
+
+.log-in-popout {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.log-in-card {
+    padding-right: 0em;
+    padding-left: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+.buttons {
+    padding: .5em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat();
+}
