@@ -1,5 +1,5 @@
 <?php
-$passw = "YRFvfzMR0DpY3S01";
+$passw = "";
 
 $username = "pmoran05";
 
