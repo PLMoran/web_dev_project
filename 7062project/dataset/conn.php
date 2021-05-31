@@ -3,7 +3,7 @@
 $host = "pmoran05.lampt.eeecs.qub.ac.uk";
 $db = "pmoran05";
 $username = "pmoran05";
-$passw = "YRFvfzMR0DpY3S01";
+$passw = "";
 
 $conn = new mysqli($host, $username, $passw, $db);
 
